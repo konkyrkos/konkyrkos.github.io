@@ -10,3 +10,5 @@ github_username: konkyrkos
 
 # Build settings
 markdown: kramdown
+
+layout: default
