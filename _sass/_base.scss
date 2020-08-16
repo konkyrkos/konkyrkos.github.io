@@ -303,6 +303,10 @@ header {
     @include button-variant(white, $theme-primary, $theme-primary);
 }
 
+.btn-secondary {
+    @include button-variant(black, white, white);
+}
+
 .btn {
     @include sans-serif-font;
     border: none;
