@@ -3290,7 +3290,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-link {
   font-weight: normal;
-  color: #337ab7;
+  color: white;
   border-radius: 0;
 }
 .btn-link,
@@ -3301,16 +3301,18 @@ fieldset[disabled] .btn-link {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
+          color: white;
 }
 .btn-link,
 .btn-link:hover,
 .btn-link:focus,
 .btn-link:active {
+  color: white;
   border-color: transparent;
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #23527c;
+  color: white;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3620,6 +3622,7 @@ tbody.collapse.in {
 .btn-group.open .dropdown-toggle.btn-link {
   -webkit-box-shadow: none;
           box-shadow: none;
+          color:white
 }
 .btn .caret {
   margin-left: 0;
